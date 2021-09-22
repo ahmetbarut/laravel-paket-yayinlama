@@ -1,0 +1,24 @@
+{
+    "name": "ahmetbarut/package-development",
+    "description": "Paket yayınlama",
+    "type": "package",
+    "license": "MIT",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ahmetbarut\\PackageDevelopment\\Provider\\LaravelIstanbulServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "ahmetbarut\\PackageDevelopment\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "Ahmet Barut",
+        "email": "ahmetbarut588@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {}
+}
